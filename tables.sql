@@ -7,6 +7,11 @@ CREATE TABLE 'product' (
 
 CREATE TABLE 'product_order'(
 'order_ID' int(11) NOT NULL,
-'product_ID' int(11) NOT NULL,
+'product_ID' int(11) NOT NULL
 )
 
+CREATE TABLE 'payment'(
+'ID' int(11) NOT NULL,
+'order_ID' int(11) NOT NULL,
+'amount' int(11) NOT NULL
+)
