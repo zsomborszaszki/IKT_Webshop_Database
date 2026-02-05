@@ -14,6 +14,8 @@ CREATE TABLE 'payment'(
 'ID' int(11) NOT NULL,
 'order_ID' int(11) NOT NULL,
 'amount' int(11) NOT NULL
+)
+    
 CREATE TABLE 'users'(
     'ID' int(11) NOT NULL,
     'username' varchar(255) NOT NULL,
