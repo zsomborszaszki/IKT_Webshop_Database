@@ -1,3 +1,3 @@
-#Ez a projekt README fájlja#
+# Ez a projekt README fájlja
 
-##Börzsönyi Gergő és Szaszki Zsombor projektje IKT órára##
+## Börzsönyi Gergő és Szaszki Zsombor projektje IKT órára
