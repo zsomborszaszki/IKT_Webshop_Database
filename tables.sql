@@ -24,3 +24,11 @@ CREATE TABLE 'users'(
     'is_active' tinyint(1) NOT NULL DEFAULT 1,
     'role_ID' int(11) DEFAULT NULL
 )
+
+CREATE TABLE 'order'(
+    'ID' int(11) NOT NULL,
+    'delivery_location' varchar(255) NOT NULL,
+    'user_ID' varchar(255) NOT NULL,
+    'order_date' datetime NOT NULL,
+    'product' int(11) NOT NULL
+)
