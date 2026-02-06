@@ -24,6 +24,9 @@ CREATE TABLE 'users'(
     'is_active' tinyint(1) NOT NULL DEFAULT 1,
     'role_ID' int(11) DEFAULT NULL
 )
+CREATE TABLE 'role'(
+    'ID' int(11) NOT NULL,
+    'role_name' varchar(255) NOT NULL
 
 CREATE TABLE 'order'(
     'ID' int(11) NOT NULL,
