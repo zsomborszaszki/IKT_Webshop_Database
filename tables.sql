@@ -27,4 +27,11 @@ CREATE TABLE 'users'(
 CREATE TABLE 'role'(
     'ID' int(11) NOT NULL,
     'role_name' varchar(255) NOT NULL
+
+CREATE TABLE 'order'(
+    'ID' int(11) NOT NULL,
+    'delivery_location' varchar(255) NOT NULL,
+    'user_ID' varchar(255) NOT NULL,
+    'order_date' datetime NOT NULL,
+    'product' int(11) NOT NULL
 )
